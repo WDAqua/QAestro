@@ -15,6 +15,7 @@ The following instructions are for installation of QAestro in Linux Fedora >=23.
 Usage example:
     
 `./run_QAestro.sh qa/views_1.txt qa/query_1.txt qa/output.txt`
+
 2. Given a set of views and multiple queries you can produce all rewritings by executing
 
 `./run_all_QAestro.sh <views> <queries> <output>`
@@ -26,16 +27,21 @@ Usage example:
 
 # Installation of QAestro with docker
 1. Install docker - see <https://docs.docker.com/> for details
+
 2. Start docker - see <https://docs.docker.com/> for details
+
 3. Clone the GitHub repository:
 
-`git clone https://github.com/WDAqua/QAestro`
+    `git clone https://github.com/WDAqua/QAestro`
+
 4. Build docker image
 
-`docker build -t qaestro .`
+    `docker build -t qaestro .`
+
 5. Run docker container and open bash shell
 
-`docker run --name qaestro --rm -i -t qaestro bash`
+    `docker run --name qaestro --rm -i -t qaestro bash`
+
 6. Execute QAestro following the instructions above, for example
 
 `./run_QAestro.sh qa/views_1.txt qa/query_1.txt qa/output.txt`
