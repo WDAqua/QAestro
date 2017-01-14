@@ -4,7 +4,7 @@ The following instructions are for installation of QAestro in Linux Fedora >=23.
 - Install Python 2.7 or newer
 - Install the following libraries `gcc-c++`, `glibc.i686`, and `libstdc++.i686`
 
-`sudo apt-get install gcc-c++ glibc.i686 libstdc++.i686`
+    `sudo apt-get install gcc-c++ glibc.i686 libstdc++.i686`
 
 ## Execution of QAestro scripts
 1. Given a set of views and a query you can produce all rewritings by executing
@@ -44,4 +44,4 @@ Usage example:
 
 6. Execute QAestro following the instructions above, for example
 
-`./run_QAestro.sh qa/views_1.txt qa/query_1.txt qa/output.txt`
+    `./run_QAestro.sh qa/views_1.txt qa/query_1.txt qa/output.txt`
