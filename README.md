@@ -10,17 +10,14 @@ The following instructions are for installation of QAestro in Linux Fedora >=23.
 1. Given a set of views and a query you can produce all rewritings by executing
 
     `./run_QAestro.sh <views> <query> <output>`
-
+`views` is the name of the file containing the views, `query` is the name of the file containing the query, and `output` is the name of the output file.
 Usage example:
-
     `./run_QAestro.sh qa/views_1.txt qa/query_1.txt qa/output.txt`
-
 2. Given a set of views and multiple queries you can produce all rewritings by executing
 
     `./run_all_QAestro.sh <views> <queries> <output>`
-
+`views` is the name of the file containing the views, `queries` is the list of the query files, and `output` is the name of the output file.
 Usage example:
-
     `./run_all_QAestro.sh qa/views_1.txt qa/query_*.txt qa/output.txt`
 
 # Installation of QAestro with docker
