@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/mcdsat/Traductor
+END
+Unification.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/mcdsat/Traductor/Unification.py
+END
+Traductor3.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/mcdsat/Traductor/Traductor3.py
+END
+VariableSat.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/mcdsat/Traductor/VariableSat.py
+END
+GenerarReescrituras.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/mcdsat/Traductor/GenerarReescrituras.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/mcdsat/Traductor/__init__.py
+END
+MCD.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/mcdsat/Traductor/MCD.py
+END
+TransformarFormula.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/mcdsat/Traductor/TransformarFormula.py
+END

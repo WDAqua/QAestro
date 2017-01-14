@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/2/trunk/mcdsat/CQ
+END
+SOComparacion.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/mcdsat/CQ/SOComparacion.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/mcdsat/CQ/__init__.py
+END
+Argumento.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/mcdsat/CQ/Argumento.py
+END
+CQ.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/mcdsat/CQ/CQ.py
+END
+Seq.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/mcdsat/CQ/Seq.py
+END
+Predicado.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/mcdsat/CQ/Predicado.py
+END
+SubObjetivo.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/mcdsat/CQ/SubObjetivo.py
+END
