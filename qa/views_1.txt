@@ -1,5 +1,0 @@
-Agidistis(x,y,z,t):- disambiguation(x,y,z,t),entity(x),question(y),disambiguatedentitities(z)
-StanfordNER(y,x):- recognition(y,x),question(y),entity(x)
-DBpediaNER(y,x):- recognition(y,x),question(y),entity(x)
-Alchemy(y,z):- disambiguation(x,y,z,t),question(y),disambiguatedentitities(z)
-StanfordNED(y,z):- disambiguation(x,y,z,t),question(y),disambiguatedentitities(z)

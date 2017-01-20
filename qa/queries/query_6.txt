@@ -1,0 +1,1 @@
+q(Z4) :- syntacticparser(Z1,Z2,Z3,Z4)

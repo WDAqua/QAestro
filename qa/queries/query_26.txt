@@ -1,0 +1,1 @@
+q(Z2,Z3) :- postagging(Z2,Z8,Z9),recognition(Z2,Z3), disambiguation(Z1,Z2,Z3,Z4)

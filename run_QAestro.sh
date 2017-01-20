@@ -15,4 +15,4 @@
 cat $3
 
 # Remove all generated files
-#rm qa/mappings.tmp $1_mcdsat.tmp $2_mcdsat.tmp
+rm qa/mappings.tmp $1_mcdsat.tmp $2_mcdsat.tmp
