@@ -1,1 +1,1 @@
-q(Z3,Z8) :- querygen(Z1,Z2,Z3,Z4,Z5,Z6,Z7,Z8), answertypeid(Z9,Z8,Z10)
+q(Z3,Z8) :- querygeneration(Z1,Z2,Z3,Z4,Z5,Z6,Z7,Z8), answertypeidentification(Z9,Z8,Z10)

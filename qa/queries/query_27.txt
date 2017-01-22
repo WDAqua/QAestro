@@ -1,1 +1,1 @@
-q(Z2,Z3) :- tokenization(Z2,Z5), recognition(Z2,Z3), disambiguation(Z1,Z2,Z3,Z4), answertypeid(Z2,Z6,Z7)
+q(Z2,Z3) :- tokenization(Z2,Z5), recognition(Z2,Z3), disambiguation(Z1,Z2,Z3,Z4), answertypeidentification(Z2,Z6,Z7)

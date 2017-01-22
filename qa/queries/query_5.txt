@@ -1,1 +1,1 @@
-q(Z1,Z2) :- dependencyparser(Z1,Z2,Z3,Z4)
+q(Z1,Z2) :- dependencyparsing(Z1,Z2,Z3,Z4)

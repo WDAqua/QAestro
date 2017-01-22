@@ -1,1 +1,1 @@
-q(Z2,Z3) :- recognition(Z2,Z3), disambiguation(Z1,Z2,Z3,Z4), querygen(Z6,Z7,Z8,Z9,Z10,Z11,Z12,Z13)
+q(Z2,Z3) :- recognition(Z2,Z3), disambiguation(Z1,Z2,Z3,Z4), querygeneration(Z6,Z7,Z8,Z9,Z10,Z11,Z12,Z13)

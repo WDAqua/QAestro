@@ -1,1 +1,1 @@
-q(Z1,Z3) :- answergen(Z1,Z2,Z3)
+q(Z1,Z3) :- answergeneration(Z1,Z2,Z3)

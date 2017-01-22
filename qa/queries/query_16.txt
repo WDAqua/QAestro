@@ -1,1 +1,1 @@
-q(Z2) :- dependencyparser(Z2,Z8,Z9,Z10), triplegen(Z1,Z2,Z3,Z4,Z5,Z6,Z7)
+q(Z2) :- dependencyparsing(Z2,Z8,Z9,Z10), triplegeneration(Z1,Z2,Z3,Z4,Z5,Z6,Z7)

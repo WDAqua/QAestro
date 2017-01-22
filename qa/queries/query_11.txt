@@ -1,1 +1,1 @@
-q(Z1,Z3) :- answertypeid(Z1,Z2,Z3)
+q(Z1,Z3) :- answertypeidentification(Z1,Z2,Z3)
