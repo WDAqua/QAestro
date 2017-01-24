@@ -100,4 +100,4 @@ No| QA System            | QA Component              | QA Task       | Input    
 51 QA components from 20 QA systems, implementing 11 distinct QA tasks are depicted in the following figure as a directed graph.
 Colors of the colored nodes (QA components) indicate different QA tasks.
 
-![QAestro graph]({{ site.url }}/assets/QAestro_graph.png)
+![QAestro graph]({{ site.baseurl }}/assets/QAestro_graph.png)
