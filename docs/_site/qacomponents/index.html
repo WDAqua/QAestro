@@ -89,11 +89,11 @@
       <div class="page">
   <h1 class="page-title">QA components</h1>
   <h1 id="semantic-qa-component-descriptions">Semantic QA Component Descriptions</h1>
-
 <p>Following the Local-As-View approach, a QA component is defined using a conjunctive rule.
 The head of the rule corresponds to the predicate that models the component, while the body of the rule is a conjunction of predicates in the QA ontology that represent the tasks performed by the component.
 The following rules semantify the QA components discussed in <a href="/qasystems">QA systems &amp; tasks</a>.</p>
-<div class="highlight"><pre><code class="language-" data-lang="">Agdistis(x,y,z) :- disambiguation(x,y,z,t), entity(x), question(y), disEntity(z)
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Agdistis(x,y,z) :- disambiguation(x,y,z,t), entity(x), question(y), disEntity(z)
 Alchemy(y,z) :- disambiguation(x,y,z,t), question(y), disEntity(z)
 StanfordNED(y,z) :- disambiguation(x,y,z,t), questiony), disEntity(z)
 DBpediaspotlightNED(x,y,z) :- disambiguation(x,y,z,t), entity(x), question(y), disEntity(z)
@@ -144,7 +144,9 @@ aquaanswer(m,ans) :- answergeneration(m,q,ans), mappingtable(m), finalanswer(ans
 okbqaanswer(q,ans) :- answergeneration(m,q,ans), sparql(q), finalanswer(ans)
 qakisatype(y,a) :- answertypeidentification(y,o,a), question(y), atype(a)
 fanswertype(o,a) :- answertypeidentification(y,o,a), ontoConcept(o), atype(a)
-</code></pre></div>
+</code></pre>
+</div>
+
 </div>
 
     </div>
