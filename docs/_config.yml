@@ -1,7 +1,5 @@
 # Dependencies
 markdown:         kramdown
-kramdown:
-  extensions:     ['tables']
 highlighter:      rouge
 
 # Permalinks

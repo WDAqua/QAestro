@@ -89,4 +89,8 @@ ENV/
 .ropeproject
 
 # IDE files
-.idea
+.idea/
+
+Gemfile
+Gemfile.lock
+_site/
