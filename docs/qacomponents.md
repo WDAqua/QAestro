@@ -7,7 +7,7 @@ order: 2
 # Semantic QA Component Descriptions
 Following the Local-As-View approach, a QA component is defined using a conjunctive rule.
 The head of the rule corresponds to the predicate that models the component, while the body of the rule is a conjunction of predicates in the QA ontology that represent the tasks performed by the component.
-The following rules semantify the QA components discussed in [QA systems & tasks]({{ site.baseurl }}/assets/qasystems).
+The following rules semantify the QA components discussed in [QA systems & tasks](/qasystems).
 
 ```
 Agdistis(x,y,z) :- disambiguation(x,y,z,t), entity(x), question(y), disEntity(z)

@@ -6,7 +6,7 @@ order: 1
 
 QA systems implement abstract QA tasks to answer questions posed by humans. QA tasks include question analysis, query construction, and the evaluation of the generated query over a knowledge base to answer the input question.
 
-![QAestro tasks]({{ site.url }}/assets/QA_tasks.png)
+![QAestro tasks]({{ site.baseurl }}/assets/QA_tasks.png)
 
 __Question Analysis__: Using different techniques, the input question is analyzed linguistically to identify syntactic and semantic features. The following techniques form important subtasks:
 
