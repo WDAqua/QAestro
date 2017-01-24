@@ -1,1 +1,17 @@
-theme: jekyll-theme-minimal
+# Dependencies
+markdown:         redcarpet
+redcarpet:
+  extensions:     ['no_intra_emphasis', 'fenced_code_blocks', 'autolink', 'tables', 'strikethrough', 'superscript', 'with_toc_data']
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            QAestro
+tagline:          'QAestro'
+description:      'Ontology-based Orchestration of Question Answering Pipelines'
+baseurl:          /
+
+github:
+  repo:           https://github.com/WDAqua/QAestro

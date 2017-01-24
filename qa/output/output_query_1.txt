@@ -1,0 +1,18 @@
+[Translate to CNF] SatRWviews.txt_mcdsat.tmp.cnf
+
+[Compile to DNNF]
+
+[Generate models]
+
+q(y, X3):- Alchemy(y, X3)
+q(y, X3):- StanfordNED(y, X3)
+q(y, X3):- DBpediaspotlightNED(x, X2, X3)
+q(y, X3):- AIDA(y, X3)
+q(y, X3):- alexentity(y, X3)
+q(y, X3):- quakisentity(y, X3)
+q(y, X3):- fox(y, X3)
+q(y, X3):- tagme(y, X3)
+q(y, X3):- Agdistis(x, X2, X3)
+[Done] 0.02485 0.065 0.013811
+
+269

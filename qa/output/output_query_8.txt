@@ -1,0 +1,11 @@
+[Translate to CNF] SatRWviews.txt_mcdsat.tmp.cnf
+
+[Compile to DNNF]
+
+[Generate models]
+
+q(t1):- HMMmodelling(t1, X8)
+q(t1):- consolidator(t1, X8)
+[Done] 0.039385 0.062 0.010693
+
+251

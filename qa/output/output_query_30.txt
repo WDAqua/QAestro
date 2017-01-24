@@ -1,0 +1,45 @@
+[Translate to CNF] SatRWviews.txt_mcdsat.tmp.cnf
+
+[Compile to DNNF]
+
+[Generate models]
+
+q(y, X3):- ApacheNLP(y, _0, X5),StanfordNER(y, X3),DBpediaspotlightNED(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- ClearNLP(y, _0, X5),StanfordNER(y, X3),DBpediaspotlightNED(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- TBSLpostagger(y, _0, X5),StanfordNER(y, X3),DBpediaspotlightNED(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- TreeTagger(y, _0, X5),StanfordNER(y, X3),DBpediaspotlightNED(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- SENNA(y, _0, X5),StanfordNER(y, X3),DBpediaspotlightNED(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- selfwiringtokenizator(y, X5),StanfordNER(y, X3),DBpediaspotlightNED(x, X2, X3),Casiaparser(y, X1, _0),qakisatype(y, X9)
+q(y, X3):- ApacheNLP(y, _0, X5),casiaNER(y, X3),DBpediaspotlightNED(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- ClearNLP(y, _0, X5),casiaNER(y, X3),DBpediaspotlightNED(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- TBSLpostagger(y, _0, X5),casiaNER(y, X3),DBpediaspotlightNED(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- TreeTagger(y, _0, X5),casiaNER(y, X3),DBpediaspotlightNED(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- SENNA(y, _0, X5),casiaNER(y, X3),DBpediaspotlightNED(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- selfwiringtokenizator(y, X5),casiaNER(y, X3),DBpediaspotlightNED(x, X2, X3),Casiaparser(y, X1, _0),qakisatype(y, X9)
+q(y, X3):- ApacheNLP(y, _0, X5),DBpediaNER(y, X3),DBpediaspotlightNED(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- ClearNLP(y, _0, X5),DBpediaNER(y, X3),DBpediaspotlightNED(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- TBSLpostagger(y, _0, X5),DBpediaNER(y, X3),DBpediaspotlightNED(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- TreeTagger(y, _0, X5),DBpediaNER(y, X3),DBpediaspotlightNED(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- SENNA(y, _0, X5),DBpediaNER(y, X3),DBpediaspotlightNED(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- selfwiringtokenizator(y, X5),DBpediaNER(y, X3),DBpediaspotlightNED(x, X2, X3),Casiaparser(y, X1, _0),qakisatype(y, X9)
+q(y, X3):- ApacheNLP(y, _0, X5),StanfordNER(y, X3),Agdistis(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- ClearNLP(y, _0, X5),StanfordNER(y, X3),Agdistis(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- TBSLpostagger(y, _0, X5),StanfordNER(y, X3),Agdistis(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- TreeTagger(y, _0, X5),StanfordNER(y, X3),Agdistis(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- SENNA(y, _0, X5),StanfordNER(y, X3),Agdistis(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- selfwiringtokenizator(y, X5),StanfordNER(y, X3),Agdistis(x, X2, X3),Casiaparser(y, X1, _0),qakisatype(y, X9)
+q(y, X3):- ApacheNLP(y, _0, X5),casiaNER(y, X3),Agdistis(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- ClearNLP(y, _0, X5),casiaNER(y, X3),Agdistis(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- TBSLpostagger(y, _0, X5),casiaNER(y, X3),Agdistis(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- TreeTagger(y, _0, X5),casiaNER(y, X3),Agdistis(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- SENNA(y, _0, X5),casiaNER(y, X3),Agdistis(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- selfwiringtokenizator(y, X5),casiaNER(y, X3),Agdistis(x, X2, X3),Casiaparser(y, X1, _0),qakisatype(y, X9)
+q(y, X3):- ApacheNLP(y, _0, X5),DBpediaNER(y, X3),Agdistis(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- ClearNLP(y, _0, X5),DBpediaNER(y, X3),Agdistis(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- TBSLpostagger(y, _0, X5),DBpediaNER(y, X3),Agdistis(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- TreeTagger(y, _0, X5),DBpediaNER(y, X3),Agdistis(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- SENNA(y, _0, X5),DBpediaNER(y, X3),Agdistis(x, X2, X3),Casiaparser(y, X1, _3),qakisatype(y, X9)
+q(y, X3):- selfwiringtokenizator(y, X5),DBpediaNER(y, X3),Agdistis(x, X2, X3),Casiaparser(y, X1, _0),qakisatype(y, X9)
+[Done] 0.061182 0.296 0.022782
+
+542

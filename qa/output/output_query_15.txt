@@ -1,0 +1,13 @@
+[Translate to CNF] SatRWviews.txt_mcdsat.tmp.cnf
+
+[Compile to DNNF]
+
+[Generate models]
+
+q(p):- Aquamapper(p, X10),aquaanswer(t3, X15)
+q(p):- Aquamapper(p, X10),poweranswer(t3, X15)
+q(p):- powermap(p, X10),aquaanswer(t3, X15)
+q(p):- powermap(p, X10),poweranswer(t3, X15)
+[Done] 0.03693 0.111 0.010916
+
+302

@@ -1,0 +1,25 @@
+[Translate to CNF] SatRWviews.txt_mcdsat.tmp.cnf
+
+[Compile to DNNF]
+
+[Generate models]
+
+q(x, X2):- DBpediaspotlightNED(x, X2, X3),qakisquerygenerator(s, X13),okbqaanswer(m, X15)
+q(x, X2):- Agdistis(x, X2, X3),qakisquerygenerator(s, X13),okbqaanswer(m, X15)
+q(x, X2):- DBpediaspotlightNED(x, X2, X3),freyaquerygenerator(s, X13),okbqaanswer(m, X15)
+q(x, X2):- Agdistis(x, X2, X3),freyaquerygenerator(s, X13),okbqaanswer(m, X15)
+q(x, X2):- DBpediaspotlightNED(x, X2, X3),rtvqurygenerator(_0, X6, X13),okbqaanswer(m, X15)
+q(x, X2):- Agdistis(x, X2, X3),rtvqurygenerator(_0, X6, X13),okbqaanswer(m, X15)
+q(x, X2):- DBpediaspotlightNED(x, X2, X3),hawkquerygenerator(t3, X13),okbqaanswer(m, X15)
+q(x, X2):- Agdistis(x, X2, X3),hawkquerygenerator(t3, X13),okbqaanswer(m, X15)
+q(x, X2):- DBpediaspotlightNED(x, X2, X3),qanswerquerygenerator(t2, X13),okbqaanswer(m, X15)
+q(x, X2):- Agdistis(x, X2, X3),qanswerquerygenerator(t2, X13),okbqaanswer(m, X15)
+q(x, X2):- DBpediaspotlightNED(x, X2, X3),xserquerygenerator(t3, X13),okbqaanswer(m, X15)
+q(x, X2):- Agdistis(x, X2, X3),xserquerygenerator(t3, X13),okbqaanswer(m, X15)
+q(x, X2):- DBpediaspotlightNED(x, X2, X3),tbslquerygenerator(p2, X13),okbqaanswer(m, X15)
+q(x, X2):- Agdistis(x, X2, X3),tbslquerygenerator(p2, X13),okbqaanswer(m, X15)
+q(x, X2):- DBpediaspotlightNED(x, X2, X3),casiaqgenerator(o, X7, X13),okbqaanswer(m, X15)
+q(x, X2):- Agdistis(x, X2, X3),casiaqgenerator(o, X7, X13),okbqaanswer(m, X15)
+[Done] 0.072189 0.173 0.022106
+
+435

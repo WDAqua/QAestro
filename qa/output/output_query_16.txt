@@ -1,0 +1,19 @@
+[Translate to CNF] SatRWviews.txt_mcdsat.tmp.cnf
+
+[Compile to DNNF]
+
+[Generate models]
+
+q(y):- Chaosparser(y, _0),aqualinguistic(y, X7)
+q(y):- Chaosparser(y, _0),powerlinguistic(y, X7)
+q(y):- Isoftparser(y, _0),aqualinguistic(y, X7)
+q(y):- Isoftparser(y, _0),powerlinguistic(y, X7)
+q(y):- semparser(y, _0),aqualinguistic(y, X7)
+q(y):- semparser(y, _0),powerlinguistic(y, X7)
+q(y):- qparser(y, _0),aqualinguistic(y, X7)
+q(y):- qparser(y, _0),powerlinguistic(y, X7)
+q(y):- Casiaparser(y, X8, _0),aqualinguistic(y, X7)
+q(y):- Casiaparser(y, X8, _0),powerlinguistic(y, X7)
+[Done] 0.038713 0.103 0.012126
+
+293

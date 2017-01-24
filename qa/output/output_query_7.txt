@@ -1,0 +1,11 @@
+[Translate to CNF] SatRWviews.txt_mcdsat.tmp.cnf
+
+[Compile to DNNF]
+
+[Generate models]
+
+q(y, X7):- aqualinguistic(y, X7)
+q(y, X7):- powerlinguistic(y, X7)
+[Done] 0.030957 0.051 0.013548
+
+231

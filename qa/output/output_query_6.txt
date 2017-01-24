@@ -1,0 +1,11 @@
+[Translate to CNF] SatRWviews.txt_mcdsat.tmp.cnf
+
+[Compile to DNNF]
+
+[Generate models]
+
+q(t):- freyaparser(x, X4)
+q(t):- tbslparser(y, X3, X4)
+[Done] 0.025749 0.059 0.012648
+
+254

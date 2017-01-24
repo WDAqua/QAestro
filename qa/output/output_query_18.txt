@@ -1,0 +1,39 @@
+[Translate to CNF] SatRWviews.txt_mcdsat.tmp.cnf
+
+[Compile to DNNF]
+
+[Generate models]
+
+q(x, X2):- ClearNLP(x, _0, X2),ClearNLP(x, X3, X2)
+q(x, X2):- ClearNLP(x, _0, X2),TBSLpostagger(x, X3, X2)
+q(x, X2):- ClearNLP(x, _0, X2),TreeTagger(x, X3, X2)
+q(x, X2):- ClearNLP(x, _0, X2),SENNA(x, X3, X2)
+q(x, X2):- ClearNLP(x, _0, X2),ApacheNLP(x, X3, X2)
+q(x, X2):- TBSLpostagger(x, _0, X2),ClearNLP(x, X3, X2)
+q(x, X2):- TBSLpostagger(x, _0, X2),TBSLpostagger(x, X3, X2)
+q(x, X2):- TBSLpostagger(x, _0, X2),TreeTagger(x, X3, X2)
+q(x, X2):- TBSLpostagger(x, _0, X2),SENNA(x, X3, X2)
+q(x, X2):- TBSLpostagger(x, _0, X2),ApacheNLP(x, X3, X2)
+q(x, X2):- TreeTagger(x, _0, X2),ClearNLP(x, X3, X2)
+q(x, X2):- TreeTagger(x, _0, X2),TBSLpostagger(x, X3, X2)
+q(x, X2):- TreeTagger(x, _0, X2),TreeTagger(x, X3, X2)
+q(x, X2):- TreeTagger(x, _0, X2),SENNA(x, X3, X2)
+q(x, X2):- TreeTagger(x, _0, X2),ApacheNLP(x, X3, X2)
+q(x, X2):- SENNA(x, _0, X2),ClearNLP(x, X3, X2)
+q(x, X2):- SENNA(x, _0, X2),TBSLpostagger(x, X3, X2)
+q(x, X2):- SENNA(x, _0, X2),TreeTagger(x, X3, X2)
+q(x, X2):- SENNA(x, _0, X2),SENNA(x, X3, X2)
+q(x, X2):- SENNA(x, _0, X2),ApacheNLP(x, X3, X2)
+q(x, X2):- ApacheNLP(x, _0, X2),ClearNLP(x, X3, X2)
+q(x, X2):- ApacheNLP(x, _0, X2),TBSLpostagger(x, X3, X2)
+q(x, X2):- ApacheNLP(x, _0, X2),TreeTagger(x, X3, X2)
+q(x, X2):- ApacheNLP(x, _0, X2),SENNA(x, X3, X2)
+q(x, X2):- ApacheNLP(x, _0, X2),ApacheNLP(x, X3, X2)
+q(x, X2):- selfwiringtokenizator(x, X2),ClearNLP(x, X3, X2)
+q(x, X2):- selfwiringtokenizator(x, X2),TBSLpostagger(x, X3, X2)
+q(x, X2):- selfwiringtokenizator(x, X2),TreeTagger(x, X3, X2)
+q(x, X2):- selfwiringtokenizator(x, X2),SENNA(x, X3, X2)
+q(x, X2):- selfwiringtokenizator(x, X2),ApacheNLP(x, X3, X2)
+[Done] 0.03059 0.101 0.014758
+
+291

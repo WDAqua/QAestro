@@ -1,0 +1,17 @@
+[Translate to CNF] SatRWviews.txt_mcdsat.tmp.cnf
+
+[Compile to DNNF]
+
+[Generate models]
+
+q(s):- qakisquerygenerator(z, X8),okbqaanswer(s, X10)
+q(s):- freyaquerygenerator(z, X8),okbqaanswer(s, X10)
+q(s):- rtvqurygenerator(_0, X1, X8),okbqaanswer(s, X10)
+q(s):- hawkquerygenerator(t1, X8),okbqaanswer(s, X10)
+q(s):- qanswerquerygenerator(p, X8),okbqaanswer(s, X10)
+q(s):- xserquerygenerator(t1, X8),okbqaanswer(s, X10)
+q(s):- tbslquerygenerator(g, X8),okbqaanswer(s, X10)
+q(s):- casiaqgenerator(t, X2, X8),okbqaanswer(s, X10)
+[Done] 0.035818 0.116 0.011875
+
+312

@@ -1,0 +1,10 @@
+[Translate to CNF] SatRWviews.txt_mcdsat.tmp.cnf
+
+[Compile to DNNF]
+
+[Generate models]
+
+q(x, X3):- qakisatype(x, X3)
+[Done] 0.035205 0.051 0.01394
+
+261

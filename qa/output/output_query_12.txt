@@ -1,0 +1,15 @@
+[Translate to CNF] SatRWviews.txt_mcdsat.tmp.cnf
+
+[Compile to DNNF]
+
+[Generate models]
+
+q(x, X3):- StanfordNER(y, X1),DBpediaspotlightNED(x, X2, X3)
+q(x, X3):- StanfordNER(y, X1),Agdistis(x, X2, X3)
+q(x, X3):- DBpediaNER(y, X1),DBpediaspotlightNED(x, X2, X3)
+q(x, X3):- DBpediaNER(y, X1),Agdistis(x, X2, X3)
+q(x, X3):- casiaNER(y, X1),DBpediaspotlightNED(x, X2, X3)
+q(x, X3):- casiaNER(y, X1),Agdistis(x, X2, X3)
+[Done] 0.035769 0.103 0.010308
+
+297

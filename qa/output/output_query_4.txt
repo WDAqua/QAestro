@@ -1,0 +1,14 @@
+[Translate to CNF] SatRWviews.txt_mcdsat.tmp.cnf
+
+[Compile to DNNF]
+
+[Generate models]
+
+q(x, X2):- ApacheNLP(x, _0, X2)
+q(x, X2):- TBSLpostagger(x, _0, X2)
+q(x, X2):- TreeTagger(x, _0, X2)
+q(x, X2):- ClearNLP(x, _0, X2)
+q(x, X2):- SENNA(x, _0, X2)
+[Done] 0.032911 0.064 0.011215
+
+305

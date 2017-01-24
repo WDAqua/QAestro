@@ -1,0 +1,36 @@
+[Translate to CNF] SatRWviews.txt_mcdsat.tmp.cnf
+
+[Compile to DNNF]
+
+[Generate models]
+
+q(y):- DBpediaNER(t1, X6),Alchemy(y, X3)
+q(y):- DBpediaNER(t1, X6),StanfordNED(y, X3)
+q(y):- DBpediaNER(t1, X6),DBpediaspotlightNED(x, X2, X3)
+q(y):- DBpediaNER(t1, X6),AIDA(y, X3)
+q(y):- DBpediaNER(t1, X6),alexentity(y, X3)
+q(y):- DBpediaNER(t1, X6),quakisentity(y, X3)
+q(y):- DBpediaNER(t1, X6),fox(y, X3)
+q(y):- DBpediaNER(t1, X6),tagme(y, X3)
+q(y):- DBpediaNER(t1, X6),Agdistis(x, X2, X3)
+q(y):- casiaNER(t1, X6),Alchemy(y, X3)
+q(y):- casiaNER(t1, X6),StanfordNED(y, X3)
+q(y):- casiaNER(t1, X6),DBpediaspotlightNED(x, X2, X3)
+q(y):- casiaNER(t1, X6),AIDA(y, X3)
+q(y):- casiaNER(t1, X6),alexentity(y, X3)
+q(y):- casiaNER(t1, X6),quakisentity(y, X3)
+q(y):- casiaNER(t1, X6),fox(y, X3)
+q(y):- casiaNER(t1, X6),tagme(y, X3)
+q(y):- casiaNER(t1, X6),Agdistis(x, X2, X3)
+q(y):- StanfordNER(t1, X6),Alchemy(y, X3)
+q(y):- StanfordNER(t1, X6),StanfordNED(y, X3)
+q(y):- StanfordNER(t1, X6),DBpediaspotlightNED(x, X2, X3)
+q(y):- StanfordNER(t1, X6),AIDA(y, X3)
+q(y):- StanfordNER(t1, X6),alexentity(y, X3)
+q(y):- StanfordNER(t1, X6),quakisentity(y, X3)
+q(y):- StanfordNER(t1, X6),fox(y, X3)
+q(y):- StanfordNER(t1, X6),tagme(y, X3)
+q(y):- StanfordNER(t1, X6),Agdistis(x, X2, X3)
+[Done] 0.030463 0.102 0.015497
+
+299

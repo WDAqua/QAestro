@@ -1,0 +1,11 @@
+[Translate to CNF] SatRWviews.txt_mcdsat.tmp.cnf
+
+[Compile to DNNF]
+
+[Generate models]
+
+q(x, X3):- aquaanswer(x, X3)
+q(x, X3):- poweranswer(x, X3)
+[Done] 0.019518 0.057 0.009639
+
+223

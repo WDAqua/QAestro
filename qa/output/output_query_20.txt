@@ -1,0 +1,11 @@
+[Translate to CNF] SatRWviews.txt_mcdsat.tmp.cnf
+
+[Compile to DNNF]
+
+[Generate models]
+
+q(z, X8):- qakisquerygenerator(z, X8),fanswertype(s, X10)
+q(z, X8):- freyaquerygenerator(z, X8),fanswertype(s, X10)
+[Done] 0.044076 0.111 0.009934
+
+295

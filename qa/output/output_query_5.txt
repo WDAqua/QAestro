@@ -1,0 +1,10 @@
+[Translate to CNF] SatRWviews.txt_mcdsat.tmp.cnf
+
+[Compile to DNNF]
+
+[Generate models]
+
+q(x, X2):- Casiaparser(x, X2, _0)
+[Done] 0.028834 0.057 0.010338
+
+248
