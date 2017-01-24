@@ -9,7 +9,7 @@ permalink:        pretty
 title:            QAestro
 tagline:          'QAestro'
 description:      'Ontology-based Orchestration of Question Answering Pipelines'
-baseurl:          https://wdaqua.github.io/QAestro/
+baseurl:          /QAestro
 
 github:
   repo:           https://github.com/WDAqua/QAestro
