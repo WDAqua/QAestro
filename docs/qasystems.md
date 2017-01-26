@@ -38,7 +38,7 @@ Other QA Tasks include:
 
 - _Syntactic Parsing_: The input question is represented in the form of a syntactic tree, consisting of identified nouns, verbs, adjectives, relations, etc. However, this task may use as input natural language question or POS tags which makes it different from POS Tagging. 
 
-The above QA task definitions describe the logical structure of an abstract QA pipeline. However, QA systems implement these tasks differently, sometimes combining several of these tasks in different order or skipping some of the tasks. The following table contains 51 QA components from existing QA systems that implement the QA tasks discussed here. This has been used as input in order to [semantify the QA components](/qacomponents).
+The above QA task definitions describe the logical structure of an abstract QA pipeline. However, QA systems implement these tasks differently, sometimes combining several of these tasks in different order or skipping some of the tasks. The following table contains 51 QA components from existing QA systems that implement the QA tasks discussed here. This has been used as input in order to [semantify the QA components](/QAestro/qacomponents).
 
 No| QA System            | QA Component              | QA Task       | Input           | Output                |
 :-|:---------------------|:--------------------------|:--------------|:----------------|:----------------------|
@@ -95,5 +95,5 @@ No| QA System            | QA Component              | QA Task       | Input    
 50|QAKIS|qakisatype|Answer Type Identification|question|answertype
 51|FREYA|fanswertype|Answer Type Identification|ontologyconcept|answetype
 
-51 QA components from 20 QA systems, implementing 11 distinct QA tasks are depicted in [this graph](/qaestrograph). The graph has been generated using [cytoscape](<http://www.cytoscape.org/).
+51 QA components from 20 QA systems, implementing 11 distinct QA tasks are depicted in [this graph](/QAestro/qaestrograph). The graph has been generated using [cytoscape](http://www.cytoscape.org/).
 
