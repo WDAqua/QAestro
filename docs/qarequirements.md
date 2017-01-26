@@ -7,8 +7,7 @@ order: 3
 
 
 ## QA Developer Requirements
-The following 30 QA developer requirements were tested for standalone QA tasks and QA pipelines.
-These pipelines integrate two, three, four, or five QA tasks. The link _QA orchestrations_ directs to the possible orchestrations that QAestro produces given the specific requirement.
+The following 30 QA developer requirements were tested for standalone QA tasks and QA pipelines. These pipelines integrate two, three, four, or five QA tasks. The link _QA orchestrations_ directs to the possible orchestrations that QAestro produces given the specific requirement.
 
 ### with one QA Task
 

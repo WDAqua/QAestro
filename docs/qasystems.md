@@ -38,9 +38,7 @@ Other QA Tasks include:
 
 - _Syntactic Parsing_: The input question is represented in the form of a syntactic tree, consisting of identified nouns, verbs, adjectives, relations, etc. However, this task may use as input natural language question or POS tags which makes it different from POS Tagging. 
 
-The above QA task definitions describe the logical structure of an abstract QA pipeline. However, QA systems implement these tasks differently, sometimes combining several of these tasks in different order or skipping some of the tasks.
-The following table contains 51 QA components from existing QA systems that implement the QA tasks discussed here.
-This has been used as input in order to [semantify the QA components](/qacomponents).
+The above QA task definitions describe the logical structure of an abstract QA pipeline. However, QA systems implement these tasks differently, sometimes combining several of these tasks in different order or skipping some of the tasks. The following table contains 51 QA components from existing QA systems that implement the QA tasks discussed here. This has been used as input in order to [semantify the QA components](/qacomponents).
 
 No| QA System            | QA Component              | QA Task       | Input           | Output                |
 :-|:---------------------|:--------------------------|:--------------|:----------------|:----------------------|
@@ -86,7 +84,7 @@ No| QA System            | QA Component              | QA Task       | Input    
 39|FREYA|freyaquerygenerator|Query Generation|triplepattern|sparql
 40|QAKIS|qakisquerygenerator|Query Generation|triplepattern|sparql
 41|CASIA|casiaqgenerator|Query Generation|ontologytriples, questiontype|sparql
-42|RTV QA System|rtvqurygenerator|Query Generation|ontologyconcepts, answertype|sparql
+42|RTV QA System|rtvquerygenerator|Query Generation|ontologyconcepts, answertype|sparql
 43|HAWK|hawkquerygenerator|Query Generation|dependencygraphh|sparql
 44|GAnswer|qanswerquerygenerator|Query Generation|querygraph|sparql
 45|Xser|xserquerygenerator|Query Generation|dependencygraphh|sparql
@@ -97,7 +95,5 @@ No| QA System            | QA Component              | QA Task       | Input    
 50|QAKIS|qakisatype|Answer Type Identification|question|answertype
 51|FREYA|fanswertype|Answer Type Identification|ontologyconcept|answetype
 
-51 QA components from 20 QA systems, implementing 11 distinct QA tasks are depicted in the following figure as a directed graph.
-Colors of the colored nodes (QA components) indicate different QA tasks.
+51 QA components from 20 QA systems, implementing 11 distinct QA tasks are depicted in [this graph](/qaestrograph). The graph has been generated using [cytoscape](<http://www.cytoscape.org/).
 
-![QAestro graph]({{ site.baseurl }}/assets/QAestro_graph.png)
