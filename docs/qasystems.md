@@ -95,5 +95,5 @@ No| QA System            | QA Component              | QA Task       | Input    
 50|QAKIS|qakisatype|Answer Type Identification|question|answertype
 51|FREYA|fanswertype|Answer Type Identification|ontologyconcept|answetype
 
-51 QA components from 20 QA systems, implementing 11 distinct QA tasks are depicted in [this graph](/QAestro/qaestrograph). The graph has been generated using [cytoscape](http://www.cytoscape.org/).
+51 QA components from 20 QA systems, implementing 11 distinct QA tasks are depicted in [this graph](https://goo.gl/GzEPtt). The graph has been generated using [cytoscape](http://www.cytoscape.org/).
 
