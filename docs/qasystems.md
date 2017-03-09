@@ -98,5 +98,5 @@ No| QA System            | QA Component              | QA Task       | Input    
 <!-- 51 QA components from 20 QA systems, implementing 11 distinct QA tasks are depicted in [this graph](https://goo.gl/GzEPtt). -->
 51 QA components from 20 QA systems, implementing 11 distinct QA tasks are depicted in the following graph. The graph has been generated using [cytoscape](http://www.cytoscape.org/).
 
-![QAestro tasks]({{ site.baseurl }}/assets/QA_graph.png)
+![QAestro graph]({{ site.baseurl }}/assets/QA_graph.png)
 
